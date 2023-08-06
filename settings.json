@@ -1,0 +1,9 @@
+{
+  "sleep_after_capture": 1,
+  "sleep_between_click": 0.5,
+  "fishing_rod_restart_first_circle": 30,
+  "fishing_rod_restart_second_circle": 30,
+  "monitor1": [450, 70, 1200, 710],
+  "region_search": [450, 70],
+  "np_mean_value": 112
+}
