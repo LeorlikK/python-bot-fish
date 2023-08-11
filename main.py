@@ -53,7 +53,6 @@ class Player:
             img = sct.grab(player.monitor1)
             img = np.array(img)
             self.screen = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-        # m = mss()
 
     def load_img(self, img):
         """Загрузка изображений"""
