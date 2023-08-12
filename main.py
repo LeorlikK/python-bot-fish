@@ -116,7 +116,7 @@ class Player:
     def method():
         # player.connect_wow()
         timeM0 = 0
-        player.load_img("1.png")
+        player.load_img("float.png")
         while player.x is None:
             timeM1 = time.time()
             if player.grab is None or timeM0 > fishing_rod_restart_first_circle:
