@@ -1,9 +1,47 @@
 {
+  "_comment": "Описание всех параметров — в README.md. Время в секундах, если не указано иное. [min, max] — случайное значение из диапазона.",
+
+  "key": "",
+  "detect_mode": "sound",
+  "loot_mode": "key",
+  "loot_key": "",
+
+  "start_delay": 5,
+  "cast_delay": [1, 10],
   "sleep_after_capture": 1,
-  "sleep_between_click": 0.5,
+  "sleep_between_click": [0.3, 0.6],
+
   "fishing_rod_restart_first_circle": 30,
   "fishing_rod_restart_second_circle": 30,
+
+  "sound_process": "Wow.exe",
+  "sound_ignore_after_cast": 1.5,
+  "sound_threshold": 0,
+  "sound_ratio": 3.0,
+  "sound_min_delta": 0.05,
+
   "monitor1": [450, 70, 1200, 710],
   "region_search": [450, 70],
-  "np_mean_value": 112
+  "np_mean_value": 112,
+  "np_mean_delta": 0,
+  "similarity": 0.8,
+
+  "short_break": {
+    "enabled": true,
+    "every_minutes": [10, 15],
+    "duration_minutes": [1, 2]
+  },
+  "long_break": {
+    "enabled": true,
+    "every_minutes": [55, 65],
+    "duration_minutes": [5, 6]
+  },
+  "session_limit_minutes": 0,
+
+  "pause_key": "f10",
+  "stop_key": "f11",
+  "window_title": "World of Warcraft",
+
+  "log_to_file": true,
+  "debug": false
 }
